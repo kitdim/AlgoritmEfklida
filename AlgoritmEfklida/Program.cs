@@ -7,8 +7,8 @@ namespace AlgoritmEfklida
         static void Main()
         {
             Console.WriteLine("Hi!\n" +
-                              "This is my demo of Euclid's algorithm.");
-            Console.ReadKey();
+                              "This is my demo of Euclid's algorithm.");                                        
+            Console.ReadKey();                                                                              
             Console.Clear();
             Console.Write("Write numerator: ");     double numerator = Convert.ToDouble(Console.ReadLine());
             Console.Write("Write denumerator: ");   double denumerator = Convert.ToDouble(Console.ReadLine());
@@ -23,6 +23,7 @@ namespace AlgoritmEfklida
                         a = a - b;
                     else
                         b = b - a;
+                    break;
                 }
             }
             Console.WriteLine("Can be abbreviated by {0}", a);
